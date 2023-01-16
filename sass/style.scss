@@ -99,35 +99,28 @@ navigation ul {
 .page-subtitle {
   margin: 14px 0;
   color: white;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 34px;
+  font-weight: 400;
   align-items: center;
+  text-decoration: ;
 }
 
 .btn {
   display: inline-block;
   min-width: 160px;
   margin: 24px auto 0 auto;
-  padding: 16px;
+  padding: 16px 36px;
   border-radius: 5px;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  background-color: #e6d300;
+  background-color: #ffd621;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
 }
 .btn:hover {
-  background-position: 0 100%;
-  color: #fff;
+  color: rgb(255, 234, 118);
   transition: all 1s;
-}
-
-.btn-one {
-  border-color: #fff;
-  color: #fff;
-  background-image: linear-gradient(90deg, #fff 50%, transparent 50%);
-}
-
-.btn-one:hover {
-  color: #0097e6;
 }
