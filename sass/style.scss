@@ -5,9 +5,11 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
-
+section {
+  margin: 80px 0;
+}
 .container {
-  max-width: 1140px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px; }
 
@@ -65,12 +67,12 @@ body{
   color: #fff;
   margin-top: 15px;
 }
-section {
-  padding: 108px 0; }
+
 
 .section-title {
   text-align: center;
   text-transform: uppercase;
+  padding:25px 0;
 }
 .about p{
   color: rgb(97, 97, 97);
@@ -80,42 +82,49 @@ section {
 
 
 /* Cards Services */
+.card{
+  margin-top: 45px;
+  background-color: #fff;
+}
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-.card {
-  flex: 1; 
-  padding: 15px;
-  margin: auto;
-  text-align: center;
-  
-}
-.card i{
+.service-points i{
   font-size: 40px;
   padding: 20px;
   color: rgb(255, 185, 21);
   border: 3px solid rgb(255, 185, 21);
   border-radius: 50%;
+  
+  
 }
+.icon {
+  text-align: center;
+}
+
 .card-title {
   margin: 25px 0;
+  text-align: center;
   
 }
 /* Portfolio*/
+
 .portfolio {
   background-color: #f7f7f7;
+  padding: 50px 0;
 } 
-.card-image img{
+.portfolio  p{
+  text-align: center;
+} 
+
+.card-img-top{
+  
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  }
-.card {
-  background-color: #fff;
+  object-fit: contain;
 }
+.card-body{
+  padding-bottom: 35px;
+  margin: 0 15px;;
+}
+
 
 /* Footer */
 footer li{
